@@ -6,5 +6,5 @@ Deploy base repo:
 
 
 Deploy subfolder repo:
-[![](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?tarballUrl=https://raw.githubusercontent.com/balena-io-playground/folder-test/master/oled/deploy.tar)
+[![](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?tarballUrl=https://github.com/balena-io-playground/folder-test2/raw/master/subfolder/deploy.tar)
 
