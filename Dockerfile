@@ -1,6 +1,5 @@
 FROM balenalib/raspberry-pi-alpine:latest
 
+# THIS IS THE BASE REPOSITORY
 
-RUN echo "This is the base repository Dockerfile"
-
-CMD [ "sleep", "infinity" ]
+CMD ["./launch.sh"]
