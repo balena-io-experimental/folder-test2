@@ -1,6 +1,10 @@
 FROM balenalib/raspberry-pi-alpine:latest
 
 
-RUN echo "This is the subfolder Dockerfile"
+# This is the subfolder Dockerfile
 
-CMD [ "sleep", "infinity" ]
+WORKDIR /usr/src
+
+COPY launch.sh launch.sh
+RUN chmod 777 launch.sh
+CMD ["./launch.sh"]
